@@ -18,7 +18,7 @@ public:
             int sum=0;
             if(l1!=NULL){
                 sum+=l1->val;
-                l1=l1->next;
+                l1=l1->next;    
             }
             if(l2!=NULL){
                 sum+=l2->val;
